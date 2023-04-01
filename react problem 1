@@ -1,0 +1,21 @@
+1.	 Open this link : - React - CodeSandbox
+You should get output like this :- 
+ 
+
+2.	 in src folder create InputComponent.js file 
+And write this code : -
+
+ 
+
+3.	Open index.js file 
+ 
+
+
+4.	Add this line of code after importing App:>    
+ import InputComponent from "./InputComponent"     
+5.	And in <StrictMode></StrictMode> remove <App /> and add </InputComponent>
+Now you Should get output like this :
+ 
+
+6.	In input text field add some text, whatever you type in it! It should be updating on below the text box as you can observe here :
+ 
